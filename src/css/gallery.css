@@ -1,0 +1,223 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background-color: #7fdde8;
+}
+
+/*Navbar*/
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	padding: 10px 100px;
+	background: transparent;
+	box-sizing: border-box;
+	transition: 1s;
+	z-index: 3;	
+}
+nav.black {
+	position: fixed;
+	background: #fff;
+	box-shadow: 5px 1px 25px -5px #000;
+	z-index: 3;	
+}
+nav img {
+	width: 50px;
+	height: 50px;	
+	z-index: 2;
+}
+nav i {
+	float: right;
+	font-size: 20px;
+	margin-top: -30px;
+}
+nav i:hover {
+	color: #26C6DA;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	right: -150%;
+	width: 30%;
+	height: 100%;
+	background: #fff;
+	box-shadow: -3px 0px 40px -4px #000;
+	z-index: 1;
+	transition: .5s;
+}
+.menu.active {
+	right: 0;
+	/*overflow: all;*/
+}
+ul {
+	text-align: right;
+	list-style: none;
+}
+ul li a {
+	/*padding: 5px;*/
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+ul li a:hover {
+	color: #26C6DA;
+	text-decoration: none;
+}
+.nav-pages {
+	padding-right: 20px;
+}
+.socials {
+	text-align: center;
+	padding-left: 20px;
+}
+.socials a {
+	color: #26C6DA;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px;
+}
+/*Navbar*/
+
+/*Header*/
+header  {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/bg-9.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+header h1 {
+	font-weight: 900;
+	font-size: 120px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+}
+header p {
+	font-size: 15px;
+	color: #dadada;
+	padding: 10px;
+	padding-bottom: 70px;
+}
+header a {
+	text-decoration: none
+	font-size: 15px;
+	color: #fff;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	transition: .5s;
+}
+header a:hover {
+	text-decoration: none;
+	background: #fff;
+	color: #26C6DA;
+	box-shadow: 5px 5px 40px -2px #000;
+}
+/*Header*/
+
+/*Portfolio*/
+.portfolio {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: #efefef;
+	text-align: left;
+}
+.portfolio h2 {
+	font-size: 50px;
+	color: #000;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.portfolio h2 span {
+	color: #50e2a5;
+}
+.portfolio ul {
+	padding: 0;
+}
+.portfolio ul li {
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	color: #636363;
+	padding: 10px 15px;
+	margin-left: 15px;
+	border-radius: 50px;
+	transition: .5s;	
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.portfolio ul li:hover {
+	text-decoration: none;
+	background: #50e2a5;
+	color: #fff;
+	box-shadow: 5px 5px 50px -4px #cecece;
+}
+.acti {
+	background: #50e2a5;
+	color: #fff !important;
+	box-shadow: 5px 5px 50px -4px #cecece;
+}
+.work img {
+	margin: 1%;
+	width: 30%;
+}
+.portfolio img:hover {
+	transition: 1s;
+	box-shadow: 1px 1px 22px 2px #636363;
+}
+/*Portfolio*/
+
+/*Contact*/
+footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: #262626;
+	text-align: center;
+}
+footer img {
+	width: 50px;
+	height: 50px;
+}
+footer p {
+	color: #fff;
+}
+footer .card {
+	height: 150px;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 1px 1px 22px 2px #262626;
+	transition: .5s;
+}
+footer .card:hover {
+	box-shadow: none;
+}
+footer i {
+	font-size: 30px;
+	color: #262626;
+}
+footer small {
+	color: #cecece;
+}
+/*Contact*/

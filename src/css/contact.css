@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background-color: #7fdde8;
+}
+
+/*Navbar*/
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	padding: 10px 100px;
+	background: transparent;
+	box-sizing: border-box;
+	transition: 1s;
+	z-index: 3;	
+}
+nav.black {
+	position: fixed;
+	background: #fff;	
+	box-shadow: 5px 1px 25px -5px #000;
+	z-index: 3;	
+}
+nav img {
+	width: 50px;
+	height: 50px;	
+	z-index: 2;
+}
+nav i {
+	float: right;
+	font-size: 20px;
+	margin-top: -30px;
+}
+nav i:hover {
+	color: #26C6DA;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	right: -150%;
+	width: 30%;
+	height: 100%;
+	background: #fff;
+	box-shadow: -3px 0px 40px -4px #000;
+	z-index: 1;
+	transition: .5s;
+}
+.menu.active {
+	right: 0;
+	/*overflow: all;*/
+}
+ul {
+	text-align: right;
+	list-style: none;
+}
+ul li a {
+	/*padding: 5px;*/
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+ul li a:hover {
+	color: #26C6DA;
+	text-decoration: none;
+}
+.nav-pages {
+	padding-right: 20px;
+}
+.socials {
+	text-align: center;
+	padding-left: 20px;
+}
+.socials a {
+	color: #26C6DA;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px;
+}
+/*Navbar*/
+
+/*Header*/
+header  {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/bg-2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+header h1 {
+	font-weight: 900;
+	font-size: 120px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+}
+header p {
+	font-size: 15px;
+	color: #dadada;
+	padding: 10px;
+	padding-bottom: 70px;
+}
+/*Header*/
+
+/*Contact*/
+.contact {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: #f9f9f9;
+	text-align: center;
+}
+.contact h2 {
+	font-size: 50px;
+	color: #000;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: left;
+}
+.contact h2 span {
+	color: #ce084c;
+}
+form {
+	text-align: left;
+}
+form label {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #26C6DA;
+}
+form input {
+	width: 100%;
+	padding: 20px;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	box-shadow: 1px 1px 30px -5px #636363;
+	transition: .5s;
+}
+form input:focus {
+	box-shadow: 1px 1px 30px 1px #26C6DA;	
+}
+form input:hover {
+	box-shadow: none;	
+}
+form textarea {
+	width: 100%;
+	height: 90%;
+	padding: 20px;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	box-shadow: 1px 1px 30px -5px #636363;
+	transition: .5s;
+}
+form textarea:focus {
+	box-shadow: 1px 1px 30px 1px #26C6DA;	
+}
+form textarea:hover {
+	box-shadow: none;	
+}
+.submit {
+	font-size: 20px;
+	color: #fff;
+	outline: none;
+	padding: 10px 25px;
+	border: 3px solid #26C6DA;
+	border-radius: 50px;
+	background: #26C6DA;
+	transition: .5s;
+	text-align: center;
+	position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.submit:focus {
+	box-shadow: 1px 1px 30px 1px #26C6DA;	
+}
+.submit:hover {
+	box-shadow: 5px 5px 50px -4px #cecece;
+}
+/*Contact*/
+
+
+/*Contact*/
+footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: #262626;
+	text-align: center;
+}
+footer img {
+	width: 50px;
+	height: 50px;
+}
+footer p {
+	color: #fff;
+}
+footer .card {
+	height: 150px;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 1px 1px 22px 2px #262626;
+	transition: .5s;
+}
+footer .card:hover {
+	box-shadow: none;
+}
+footer i {
+	font-size: 30px;
+	color: #262626;
+}
+footer small {
+	color: #cecece;
+}
+/*Contact*/
+

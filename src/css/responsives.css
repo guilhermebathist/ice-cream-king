@@ -1,0 +1,97 @@
+/*Responsives*/
+@media only screen and (max-width: 991px) {
+	.menu {
+		width: 50%;
+	}
+	header h1 {
+		font-size: 80px;
+	}
+	.resume img {
+		width: 380px;
+		height: 380px;
+	}
+	.services .card a {
+		font-size: 12px;
+	}
+	.services .card h5 {
+		font-size: 18px;
+	}
+	.work img {
+		margin: 2%;
+		width: 45%;
+	}
+}
+@media(max-width: 767px) {
+	.graphics {
+		height: 500px;
+	}
+	.graphics-items-up {
+		margin-bottom: 25px;
+	}
+	.graphics-items-down {
+		margin-top: 25px;
+	}
+	.logo {
+		margin-left: -60px;
+	}
+	.toggle {
+		margin-right: -50px;
+	}
+	.subscribe {
+		height: 500px;
+		text-align: center;
+	}
+	.subscribe h2{
+		text-align: left;
+	}
+	.subscribe input {
+		margin-bottom: 50px;
+	}
+	.services .card a {
+		font-size: 15px;
+	}
+	.work img {
+		margin: 2%;
+		width: 90%;
+	}
+	.portfolio ul li {
+		margin-left: 10px;
+		font-size: 15px;
+	}
+	.testimonials i {
+		left: 57%;
+	}
+}
+
+@media only screen and (max-width: 515px) {
+	.menu {
+		width: 100%;
+	}
+	header h1 {
+		font-size: 40px;
+	}
+	.resume img {
+		width: 250px;
+		height: 250px;
+	}	
+	.services h2 {
+		font-size: 40px;
+	}
+	.services p {
+		font-size: 12px;
+	}
+	.resume p {
+		font-size: 12px;
+	}
+	.subscribe h2 {
+		font-size: 40px;
+	}
+	.portfolio ul li {
+		margin-left: 5px;
+		font-size: 10px;
+	}
+	.testimonials i {
+		left: 60%;
+	}
+}
+/*Responsives*/

@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background-color: #7fdde8;
+}
+
+/*Navbar*/
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	padding: 10px 100px;
+	background: transparent;
+	box-sizing: border-box;
+	transition: 1s;
+	z-index: 3;	
+}
+nav.black {
+	position: fixed;
+	background: #fff;	
+	box-shadow: 5px 1px 25px -5px #000;
+	z-index: 3;	
+}
+nav img {
+	width: 50px;
+	height: 50px;	
+	z-index: 2;
+}
+nav i {
+	float: right;
+	font-size: 20px;
+	margin-top: -30px;
+}
+nav i:hover {
+	color: #26C6DA;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	right: -150%;
+	width: 30%;
+	height: 100%;
+	background: #fff;
+	box-shadow: -3px 0px 40px -4px #000;
+	z-index: 1;
+	transition: .5s;
+}
+.menu.active {
+	right: 0;
+	/*overflow: all;*/
+}
+ul {
+	text-align: right;
+	list-style: none;
+}
+ul li a {
+	/*padding: 5px;*/
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+ul li a:hover {
+	color: #26C6DA;
+	text-decoration: none;
+}
+.nav-pages {
+	padding-right: 20px;
+}
+.socials {
+	text-align: center;
+	padding-left: 20px;
+}
+.socials a {
+	color: #26C6DA;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px;
+}
+/*Navbar*/
+
+/*Header*/
+header  {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg/bg-7.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+header h1 {
+	font-weight: 900;
+	font-size: 120px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+}
+header p {
+	font-size: 15px;
+	color: #dadada;
+	padding: 10px;
+	padding-bottom: 70px;
+}
+/*Header*/
+
+/*Menu*/
+.menuu {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	text-align: center;
+}
+.menuu h2 {
+	font-size: 50px;
+	color: #000;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: left;
+}
+.menuu h2 span {
+	color: orange;
+}
+.menuu h3 {
+	font-size: 30px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.menuu p {
+	font-size: 15px;
+	text-align: center;
+	color: #636363;
+}
+.ice-cream-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 300px;
+	height: 415.75px;
+}
+.sundae-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 235px;
+	height: 350px;
+}
+.milk-shake-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 273.5px;
+	height: 360px;
+}
+table {
+	width:100%;
+}
+.table-ice-cream th {
+	font-size: 20px;
+	border-bottom: 3px solid #000;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.table-ice-cream td {
+	font-size: 18px;
+	padding: 15px;
+	border-bottom: 1px solid #cecece;
+	font-weight: 700;
+	color: #636363;
+}
+
+.table-sundae th {
+	font-size: 20px;
+	border-bottom: 3px solid #000;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.table-sundae td {
+	font-size: 18px;
+	padding: 15px;
+	border-bottom: 1px solid #cecece;
+	font-weight: 700;
+	color: #636363;
+}
+
+.table-milk-shake th {
+	font-size: 20px;
+	border-bottom: 3px solid #000;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.table-milk-shake td {
+	font-size: 18px;
+	padding: 15px;
+	border-bottom: 1px solid #cecece;
+	font-weight: 700;
+	color: #636363;
+}
+.price-ice {
+	color: #26C6DA !important;
+}
+.price-sundae {
+	color: #EC407A !important;
+}
+.price-milk {
+	color: #6D4C41 !important;
+}
+.table-left {
+	text-align: left;
+}
+.table-right {
+	text-align: right;
+}
+/*Menu*/
+
+
+
+/*Contact*/
+footer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background: #262626;
+	text-align: center;
+}
+footer img {
+	width: 50px;
+	height: 50px;
+}
+footer p {
+	color: #fff;
+}
+footer .card {
+	height: 150px;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 1px 1px 22px 2px #262626;
+	transition: .5s;
+}
+footer .card:hover {
+	box-shadow: none;
+}
+footer i {
+	font-size: 30px;
+	color: #262626;
+}
+footer small {
+	color: #cecece;
+}
+/*Contact*/
+
